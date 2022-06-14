@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	// generate keyring from 12 word mnemonic
+	// generate keyring from secret uri
 	secretURI := "head achieve piano online exhaust bulk trust vote inflict room keen maximum"
 	kr, _ := keyring.FromURI(secretURI, keyring.NetSubstrate{})
 
