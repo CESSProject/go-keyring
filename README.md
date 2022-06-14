@@ -22,7 +22,7 @@ func main() {
 	log.Printf("SS58 Address: %s", ss58)
 
 	// sign message
-	msg := []byte("setec astronomy")
+	msg := []byte("test message")
 	sig, _ := kr.Sign(kr.SigningContext(msg))
 
 	// create new keyring from SS58 public address to verify message signature
